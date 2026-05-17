@@ -4,4 +4,4 @@ function printMessage(message) {
 }
 
 // استدعاء الدالة لتجربتها
-printMessage("أهلاً بك! السكربت يعمل بنجاح.");
+printMessage(" أهلاً بك! السكربت يعمل بنجاح.");
