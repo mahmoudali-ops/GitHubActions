@@ -10,14 +10,6 @@ on :
                 options:
                     - production
                     - staging
-            browser:
-                description: 'Select the page to deploy'
-                required: true
-                default: 'goooogle'
-                type: choice
-                options:
-                    - goooogle
-                    - facebook
 
 jobs:
   deplodsay:
