@@ -1,0 +1,15 @@
+
+name : WorlkFlow for API
+
+on : 
+    repository_dispatch:
+        types: [indeiencent_report]
+    
+jobs:
+        indeiencent_report:
+            runs-on: ubuntu-latest
+            steps:
+                - name: Print Message
+                  run: echo "This is a workflow triggered by repository_dispatch event for indeiencent_report 🐱‍🏍"    
+        
+           
