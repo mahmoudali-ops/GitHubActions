@@ -1,0 +1,11 @@
+on : 
+    workflow_dispatch:
+jobs:
+  deplodsay:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Wellcome Message
+        run: echo "Welome to manual WorkFlow ✌"
+
+        
