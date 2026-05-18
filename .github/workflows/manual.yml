@@ -17,6 +17,6 @@ jobs:
 
     steps:
       - name: Print Wellcome Message
-        run: echo "Welome to manual WorkFlow ✌"
+        run: echo "Welome to manual WorkFlow with ${{inputs.environment}} deployment ✌ "
 
         
