@@ -1,0 +1,13 @@
+name : mask variable in command
+on :
+    workflow_dispatch:
+jobs:
+  mask_variable:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mask Variable in Command
+        run: echo "API_KEY=123456" >> $GITHUB_ENV
+
+      - name: Use Masked Variable    
+        run: |
+          echo "Using the masked API_KEY: $API_KEY"
