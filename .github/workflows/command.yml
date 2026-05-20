@@ -10,4 +10,5 @@ jobs:
 
       - name: Use Masked Variable    
         run: |
+          echo "::add-mask::$API_KEY"
           echo "Using the masked API_KEY: $API_KEY"
